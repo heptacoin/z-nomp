@@ -1,0 +1,7 @@
+{
+    "name": "Heptacoin",
+    "symbol": "HEPTA",
+    "algorithm": "equihash144_5",
+    "peerMagic": "d8cfce92",
+    "txfee": 0.0001
+}
