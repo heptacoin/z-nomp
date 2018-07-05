@@ -2,6 +2,7 @@
     "name": "Heptacoin_Testnet",
     "symbol": "HEPTA",
     "algorithm": "equihash144_5",
+    "peerMagicTestnet": "fe91865a",
     "peerMagic": "fe91865a",
     "txfee": 0.0001
 }
