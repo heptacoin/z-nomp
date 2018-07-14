@@ -1,3 +1,6 @@
 node_modules/
 .idea/
 config.json
+pool_configs/*.json
+package-lock.json
+*.log
