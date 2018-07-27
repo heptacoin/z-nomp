@@ -227,11 +227,11 @@
     </div>
 
     <div id="main">
-        <a href="#" class="miningOption" id="nompAppDownload">
+        <a href="https://bitcointalk.org/index.php?topic=4466962.0" class="miningOption" id="nompAppDownload" target="_blank">
             <div class="miningOptionNum">1.</div>
             <div class="miningOptionInstructions">
-                <div>Download NOMP App</div>
-                <div>Our preconfigured app makes mining that easy</div>
+                <div>Download EBWF Cuda Equihash Miner</div>
+                <div>Follow EWBF instructions to set up and configure your miner</div>
             </div>
         </a>
         <div id="orHolder">
@@ -272,6 +272,9 @@
         var htmlKeys = '<div class="coinInfoData">Algorithm:</div>';
         var htmlValues = '<div class="coinInfoData">' + info.algo + '</div>';
 
+        htmlKeys += '<div class="coinInfoData">Pers:</div>';
+        htmlValues += '<div class="coinInfoData">HeptaPoW</div>';
+
         for (var port in info.ports){
             htmlKeys += '<div class="coinInfoData">URL <span class="coinInfoSubtle">(difficulty ' + info.ports[port].diff + ')</span>:</div>';
             htmlValues += '<div class="coinInfoData">stratum+tcp://' + info.host + ':' + port + '</div>';
@@ -307,12 +310,6 @@
         event.preventDefault();
         $('#coinInfoBackground,#coinInfo').addClass('hidden');
         $('#coinInfoBackground').css('opacity', 0.0);
-        return false;
-    });
-
-    $('#nompAppDownload').click(function(event){
-        event.preventDefault();
-        alert('NOMP App development still in progress...');
         return false;
     });
 </script>
